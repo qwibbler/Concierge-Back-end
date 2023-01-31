@@ -82,6 +82,6 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-  # database: concierge_backend_production
+  database: concierge_backend_production
   username: concierge_backend
   password: <%= ENV["BACKEND_DATABASE_PASSWORD"] %>
